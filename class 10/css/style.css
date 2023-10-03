@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
+}
+.container{
+	width: 1440px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+
+/*header-section-start*/
+
+.header-section{
+	background: #F0FFF0;
+	padding: 15px;
+}
+.header-section .nav-link{
+	padding-left: 35px !important;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.header-section .btn-success{
+	 font-family: 'Roboto', sans-serif;
+	margin-left: 35px !important;
+	padding: 8px 30px;
+	border-radius: 40px;
+    background: #21B573;
+    border-color:#21B573;
+    transition: 0.5s;
+    font-size: 16px;
+	font-weight: 400;
+}
+.header-section .btn-success:hover{
+	 font-family: 'Roboto', sans-serif;
+    background: #56548c;
+    border-color:#56548c;
+      transition: 0.5s;
+}
+/*header-section-end*/
+
+
+/*banner-section-start*/
+
+.banner-section{
+	background: #F0FFF0;
+	padding: 55px;
+}
+.banner-section .content{
+  margin-top: 50px;
+}
+.banner-section .content h5{
+	font-size: 16px;
+	font-weight: 400;
+	color: #FD511A;
+	margin-bottom: 15px;
+}
+
+.banner-section .content h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 70px;
+	padding-right: 220px;
+}
+
+.banner-section .content h1 span{
+	font-size: 48px;
+	font-weight: 700;
+	color: #21B573;
+	line-height: 70px;
+}
+
+.banner-section .content p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	padding-right: 220px;
+	margin-top: 30px;
+	line-height: 36px;
+}
+.banner-section .frame-part img{
+	width: 620px;
+}
+
+.banner-section .content .btn-success{
+	 font-family: 'Roboto', sans-serif;
+/*	margin-left: 35px !important;*/
+	padding: 8px 30px;
+	border-radius: 40px;
+    background: #21B573;
+    border-color:#21B573;
+    transition: 0.5s;
+    font-size: 16px;
+	font-weight: 400;
+	margin-top: 30px;
+	text-transform: capitalize;
+}
+
+.banner-section .content .btn-success:hover{
+	 font-family: 'Roboto', sans-serif;
+    background: #56548c;
+    border-color:#56548c;
+      transition: 0.5s;
+}
+/*banner-section-end*/
+
+
+
+/*picture-section-start*/
+
+.picture-section{
+ padding: 60px 0px;
+ background: white;
+}
+
+.picture-section .picture-part{
+   background: #F8FFFB;
+   text-align: center;
+   padding: 40px 0px;
+
+}
+
+.picture-section .picture-part:hover{
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+	border-radius: 10px;
+}
+
+
+.picture-section .picture-part img{
+	width: 32%;
+	margin-bottom:15px ;
+}
+
+
+.picture-section .picture-part h4{
+	font-size: 24px;
+	margin: 5px;
+	font-weight: 500px;
+}
+
+
+.picture-section .picture-part p{
+	font-weight: 400px;
+	font-size: 16px;
+}
+
+/*picture-section-end*/
+
+
+
+/*course-section-start*/
+
+.course-section{
+	padding: 50px 0px;
+}
+.course-section .course-content h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.course-section .course-inner {
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+	margin-top: 50px;
+	padding: 37px 0px 37px 37px;
+}
+
+.course-section .course-inner img{
+	width: 330px;
+}
+
+.course-section .course-inner h4{
+   font-size: 24px;
+   font-weight: 500;
+   margin-top: 15px;
+}
+
+.course-section .course-inner p{
+   font-size: 16px;
+   font-weight: 400;
+   margin-top: 15px;
+}
+
+.course-section .btn-success{
+	 font-family: 'Roboto', sans-serif;
+/*	margin-left: 35px !important;*/
+	padding: 8px 30px;
+	border-radius: 40px;
+    background: #21B573;
+    border-color:#21B573;
+    transition: 0.5s;
+    font-size: 16px;
+	font-weight: 400;
+	margin-top: 15px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.f-img{
+	width: 24px !important;
+}
+
+/*course-section-end*/
+
+
+/*testimonial-section-start*/
+
+.testimonial-section{
+	padding: 90px;
+	
+}
+
+.testimonial-section h2{
+	font-weight:700 ;
+	font-size:36px ;
+	text-align: center;
+}
+
+.testimonial-section .testimonial-part img{
+	width: 120px;
+	margin-left: 200px;
+}
+.testimonial-section .testimonial-part{
+	padding: 50px;
+}
+
+.testimonial-section .testimonial-part p{
+	font-weight:400 ;
+	font-size:16px ;
+	padding-right: 206px;
+	margin-top: 15px;
+	line-height: 30px;
+}
+
+/*testimonial-section-end*/
+
+
+
+/*footer-section-start*/
+
+.footer-section{
+	background: #282531;
+	padding: 50px 0px;
+}
+
+.footer-section .footer-part p{
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.footer-section .footer-part h4{
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.footer-section .footer-part ul li{
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;s
+}
+
+.footer-section .footer-end h4{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 70px;
+}
+
+
+/*footer-section-end
